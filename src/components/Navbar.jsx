@@ -13,6 +13,9 @@ const Navbar = () => {
         <a href="#">Travel</a>
         <a href="#">Car Rental</a>
       </nav>
+      <div>
+        <input className="" type="search" name="" id="" />
+      </div>
     </header>
   );
 };
