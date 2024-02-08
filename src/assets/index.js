@@ -3,6 +3,7 @@ import local from "./icons/local.svg";
 import search from "./icons/search.svg";
 import lang from "./icons/lang.svg";
 import arrow from "./icons/arrow.svg";
+import arrowBlack from "./icons/arrow-black.svg";
 import toyotaYaris from "./toyota-yaris.jpg";
 import alphard from "./alphard.jpg";
 import carmy from "./carmy.jpg";
@@ -15,9 +16,12 @@ import gearbox from "./icons/gearbox.svg";
 import chair from "./icons/chair.svg";
 import star from "./icons/star.svg";
 import bag from "./icons/bag.svg";
+import icon from "./icons/icon.svg";
 
 import selectIcon from "./icons/select-icon.svg";
 import heroImage from "./image-hero.jpg";
+import imageone from "./image-1.jpg";
+import imagetwo from "./image-2.jpg";
 
 export {
   logo,
@@ -39,4 +43,8 @@ export {
   chair,
   star,
   bag,
+  arrowBlack,
+  imageone,
+  imagetwo,
+  icon,
 };

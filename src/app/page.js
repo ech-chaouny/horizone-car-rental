@@ -1,5 +1,7 @@
 import Navbar from "@/components/Navbar";
+import Deals from "@/pages/Deals";
 import Hero from "@/pages/Hero";
+import Popular from "@/pages/Popular";
 import Vehicles from "@/pages/Vehicles";
 
 export default function Home() {
@@ -8,6 +10,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Vehicles />
+      <Popular />
+      <Deals />
     </>
   );
 }

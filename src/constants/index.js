@@ -91,3 +91,22 @@ export const vehicles = [
     price: "$70",
   },
 ];
+
+export const popularCars = [
+  "Car Rental in Bandung",
+  "Car Rental in Jakarta",
+  "Car Rental in Bali",
+  "Car Rental in Sydney",
+  "Car Rental in New York",
+  "Car Rental in Seoul",
+  "Car Rental in Tokyo",
+  "Car Rental in Paris",
+  "Car Rental in Jeju Island",
+  "Car Rental in Los Angeles",
+  "Car Rental in Berlin",
+  "Car Rental in Munich",
+  "Car Rental in Yogyakarta",
+  "Car Rental in Liverpool",
+  "Car Rental in Glasglow",
+  "Car Rental in Birmingham",
+];
