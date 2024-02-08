@@ -1,18 +1,18 @@
 import React from "react";
 import Image from "next/image";
-import { heroImage, local, selectIcon } from "@/assets";
+import { arrow, heroImage, local, selectIcon } from "@/assets";
 
 const Hero = () => {
   return (
-    <div className="">
+    <>
       <div className="px-8 absolute z-0">
         <div className="h-[85vh] flex flex-col justify-end items-start">
           <h1 className="text-[64px] text-white font-medium">
             Rent a Car for Every Journey
           </h1>
         </div>
-        <div className="px-7 bg-white rounded-[12px]">
-          <div className="flex flex-row w-full mt-6 pt-6 pb-4 gap-5">
+        <div className="px-6 w-full bg-white rounded-[12px]">
+          <div className="flex flex-row w-full mt-6 pt-6 pb-4 gap-6">
             <div>
               <div className="flex justify-between items-center">
                 <h5 className="font-medium text-[18px]">Departure</h5>
@@ -33,13 +33,13 @@ const Hero = () => {
                   </label>
                 </div>
               </div>
-              <div className="flex bg-[#F6F6F6] rounded-xl p-4">
+              <div className="flex bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
                 <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                <span className="font-normal text-[17.5px]">
+                <span className="font-[450] text-[17.5px]">
                   City, airport or station
                 </span>
                 <Image
-                  className="w-[25px] ml-[66px]"
+                  className="w-[25px] ml-[72px]"
                   src={selectIcon}
                   alt="icon"
                 />
@@ -47,13 +47,13 @@ const Hero = () => {
             </div>
             <div>
               <h5 className="font-medium text-[18px]">Return Location</h5>
-              <div className="flex bg-[#F6F6F6] rounded-xl p-4">
+              <div className="flex bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
                 <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                <span className="font-normal text-[17.5px]">
+                <span className="font-[450] text-[17.5px]">
                   City, airport or station
                 </span>
                 <Image
-                  className="w-[25px] ml-[66px]"
+                  className="w-[25px] ml-[72px]"
                   src={selectIcon}
                   alt="icon"
                 />
@@ -61,13 +61,13 @@ const Hero = () => {
             </div>
             <div>
               <h5 className="font-medium text-[18px]">Pick Up Date & Time</h5>
-              <div className="flex bg-[#F6F6F6] rounded-xl p-4">
+              <div className="flex bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
                 <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                <span className="font-normal text-[17.5px]">
+                <span className="font-[450] text-[17.5px]">
                   City, airport or station
                 </span>
                 <Image
-                  className="w-[25px] ml-[66px]"
+                  className="w-[25px] ml-[72px]"
                   src={selectIcon}
                   alt="icon"
                 />
@@ -75,13 +75,13 @@ const Hero = () => {
             </div>
             <div>
               <h5 className="font-medium text-[18px]">Return Date & Time</h5>
-              <div className="flex bg-[#F6F6F6] rounded-xl p-4">
+              <div className="flex bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
                 <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                <span className="font-normal text-[17.5px]">
+                <span className="font-[450] text-[17.5px]">
                   City, airport or station
                 </span>
                 <Image
-                  className="w-[25px] ml-[66px]"
+                  className="w-[25px] ml-[72px]"
                   src={selectIcon}
                   alt="icon"
                 />
@@ -103,7 +103,7 @@ const Hero = () => {
                 <label
                   htmlFor="without"
                   type="button"
-                  className="text-[14px] font-medium cursor-pointer peer-checked:bg-black peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
+                  className="text-[14px] font-medium cursor-pointer peer-checked:bg-primary peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
                 >
                   Without Driver
                 </label>
@@ -119,23 +119,24 @@ const Hero = () => {
                 <label
                   type="button"
                   htmlFor="with"
-                  className="text-[14px] font-medium cursor-pointer peer-checked:bg-black peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
+                  className="text-[14px] font-medium cursor-pointer peer-checked:bg-primary peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
                 >
                   With Driver
                 </label>
               </div>
             </div>
             <button
-              className="ml-5 bg-black rounded-lg px-6 py-3 text-white font-medium text-[18px]"
+              className="ml-5 inline-flex items-center bg-primary rounded-lg px-7 py-3 text-white font-medium text-[18px]"
               type="button"
             >
               Search
+              <Image className="ml-3 w-[18px]" src={arrow} alt="arrow" />
             </button>
           </div>
         </div>
       </div>
       <Image className="w-full rounded-[20px] p-2" src={heroImage} alt="logo" />
-    </div>
+    </>
   );
 };
 
