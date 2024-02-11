@@ -1,12 +1,23 @@
 import {
+  airtable,
   alphard,
   carmy,
+  coinbase,
+  discord,
+  doordash,
+  facebook,
   fortuner,
+  hellosign,
   innova,
   innovaZenix,
+  instagram,
   lexus,
+  pendo,
   terios,
+  tiktok,
   toyotaYaris,
+  treehouse,
+  twitterX,
 } from "@/assets";
 
 export const vehicles = [
@@ -109,4 +120,21 @@ export const popularCars = [
   "Car Rental in Liverpool",
   "Car Rental in Glasglow",
   "Car Rental in Birmingham",
+];
+
+export const trusts = [
+  hellosign,
+  doordash,
+  coinbase,
+  airtable,
+  pendo,
+  treehouse,
+];
+
+export const socialmedia = [
+  { icon: instagram, link: "#" },
+  { icon: twitterX, link: "#" },
+  { icon: facebook, link: "#" },
+  { icon: discord, link: "#" },
+  { icon: tiktok, link: "#" },
 ];

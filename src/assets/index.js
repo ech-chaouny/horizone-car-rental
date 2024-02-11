@@ -17,11 +17,27 @@ import chair from "./icons/chair.svg";
 import star from "./icons/star.svg";
 import bag from "./icons/bag.svg";
 import icon from "./icons/icon.svg";
+import hellosign from "./icons/hellosign.png";
+import doordash from "./icons/doordash.png";
+import coinbase from "./icons/coinbase.png";
+import airtable from "./icons/airtable.png";
+import pendo from "./icons/pendo.png";
+import treehouse from "./icons/treehouse.png";
+import website from "./icons/website.svg";
+
+import instagram from "./icons/instagram.svg";
+import twitterX from "./icons/twitterX.svg";
+import facebook from "./icons/facebook.svg";
+import discord from "./icons/discord.svg";
+import tiktok from "./icons/tiktok.svg";
 
 import selectIcon from "./icons/select-icon.svg";
 import heroImage from "./image-hero.jpg";
 import imageone from "./image-1.jpg";
 import imagetwo from "./image-2.jpg";
+import hidden from "./hidden.jpg";
+import twoCars from "./two-cars.jpg";
+import speed from "./speed.jpg";
 
 export {
   logo,
@@ -47,4 +63,19 @@ export {
   imageone,
   imagetwo,
   icon,
+  hellosign,
+  doordash,
+  coinbase,
+  airtable,
+  pendo,
+  treehouse,
+  hidden,
+  twoCars,
+  speed,
+  website,
+  twitterX,
+  instagram,
+  facebook,
+  discord,
+  tiktok,
 };
