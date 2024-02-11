@@ -18,7 +18,7 @@ const Vehicle = ({ vehicle }) => {
       </div>
       <h2 className="font-[550] text-[22px] mt-4">{vehicle.brand}</h2>
       <div className="flex gap-2 mt-1.5">
-        <Image className="w-[19px]" src={gearbox} alt="" />
+        <Image className="w-[19px]" src={gearbox} alt="gearbox" />
         <span className="font-[450] text-[19.5px] text-secondary">
           {vehicle.transmission}
         </span>

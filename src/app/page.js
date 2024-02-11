@@ -11,7 +11,7 @@ export default function Home() {
     <>
       <Navbar />
       <Hero />
-      <Vehicles />
+      {/* <Vehicles /> */}
       <Popular />
       <Deals />
       <Information />
