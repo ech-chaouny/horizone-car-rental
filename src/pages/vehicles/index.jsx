@@ -64,7 +64,7 @@ const Vehicles = () => {
       <p className="mt-3 text-[20px] text-secondary font-[470]">
         Experience the epitome of amazing journey with our top picks.
       </p>
-      <div className="mt-10 grid w-full gap-6 md:grid-cols-4 grid-cols-2">
+      <div className="mt-10 grid w-full gap-6 md:grid-cols-4">
         {vehicles.map((vehicle, index) => (
           <Vehicle key={index} vehicle={vehicle} />
         ))}

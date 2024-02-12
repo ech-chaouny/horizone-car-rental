@@ -7,19 +7,17 @@ const Hero = () => {
     <>
       <div className="relative w-full h-full">
         <Image
-          className="rounded-[20px] sd:h-full h-screen object-cover p-2"
+          className="rounded-[20px] xl:h-full h-[120vh] object-cover p-2"
           src={heroImage}
           alt="logo"
         />
-        <div className="absolute bottom-8 px-8">
-          <div className="flex flex-col justify-end items-start">
-            <h1 className="xl:text-[64px] lg:text-[55px] md:text-text-[50px] text-[45px] text-white font-medium">
-              Rent a Car for Every Journey
-            </h1>
-          </div>
+        <div className="absolute w-full bottom-8 px-8">
+          <h1 className="xl:text-[64px] lg:text-[55px] md:text-text-[50px] text-[45px] md:text-start text-center leading-none text-white font-medium">
+            Rent a Car for Every Journey
+          </h1>
           <div className="px-6 w-full bg-white rounded-[12px]">
-            <div className="flex flex-wrap justify-between mt-6 pt-6 pb-4 gap-6">
-              <div>
+            <div className="grid lg:grid-cols-4 md:grid-cols-2 mt-6 pt-6 pb-4 gap-6">
+              <div className="w-full">
                 <div className="flex w-full justify-between items-center">
                   <h5 className="font-medium text-[18px]">Departure</h5>
                   <div className="inline-flex items-center space-x-2">
@@ -39,64 +37,56 @@ const Hero = () => {
                     </label>
                   </div>
                 </div>
-                <div className="flex justify-between w-full bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
-                  <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                  <span className="font-[450] text-[17.5px]">
-                    City, airport or station
-                  </span>
-                  <Image
-                    className="w-[25px] ml-[72px]"
-                    src={selectIcon}
-                    alt="icon"
-                  />
+                <div className="flex w-full justify-between bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
+                  <div className="flex gap-3">
+                    <Image className="w-[18px]" src={local} alt="icon" />
+                    <span className="font-[450] sm:text-[17.5px]">
+                      City, airport or station
+                    </span>
+                  </div>
+                  <Image className="w-[25px]" src={selectIcon} alt="icon" />
                 </div>
               </div>
-              <div>
+              <div className="w-full">
                 <h5 className="font-medium text-[18px]">Return Location</h5>
-                <div className="flex w-full bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
-                  <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                  <span className="font-[450] text-[17.5px]">
-                    City, airport or station
-                  </span>
-                  <Image
-                    className="w-[25px] ml-[72px]"
-                    src={selectIcon}
-                    alt="icon"
-                  />
+                <div className="flex w-full justify-between bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
+                  <div className="flex gap-3">
+                    <Image className="w-[18px]" src={local} alt="icon" />
+                    <span className="font-[450] sm:text-[17.5px]">
+                      City, airport or station
+                    </span>
+                  </div>
+                  <Image className="w-[25px]" src={selectIcon} alt="icon" />
                 </div>
               </div>
-              <div>
+              <div className="w-full">
                 <h5 className="font-medium text-[18px]">Pick Up Date & Time</h5>
-                <div className="flex w-full bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
-                  <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                  <span className="font-[450] text-[17.5px]">
-                    City, airport or station
-                  </span>
-                  <Image
-                    className="w-[25px] ml-[72px]"
-                    src={selectIcon}
-                    alt="icon"
-                  />
+                <div className="flex w-full justify-between bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
+                  <div className="flex gap-3">
+                    <Image className="w-[18px]" src={local} alt="icon" />
+                    <span className="font-[450] sm:text-[17.5px]">
+                      City, airport or station
+                    </span>
+                  </div>
+                  <Image className="w-[25px]" src={selectIcon} alt="icon" />
                 </div>
               </div>
-              <div>
+              <div className="w-full">
                 <h5 className="font-medium text-[18px]">Return Date & Time</h5>
-                <div className="flex w-full bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
-                  <Image className="w-[18px] mr-3" src={local} alt="icon" />
-                  <span className="font-[450] text-[17.5px]">
-                    City, airport or station
-                  </span>
-                  <Image
-                    className="w-[25px] ml-[72px]"
-                    src={selectIcon}
-                    alt="icon"
-                  />
+                <div className="flex w-full justify-between bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
+                  <div className="flex gap-3">
+                    <Image className="w-[18px]" src={local} alt="icon" />
+                    <span className="font-[450] sm:text-[17.5px]">
+                      City, airport or station
+                    </span>
+                  </div>
+                  <Image className="w-[25px]" src={selectIcon} alt="icon" />
                 </div>
               </div>
             </div>
-            <div className="flex sm:flex-row flex-col justify-between items-start pb-6">
-              <div className="inline-flex items-center space-x-4">
-                <span className="font-medium text-[18px]">Filter :</span>
+            <div className="flex sm:flex-row flex-col sm:justify-between items-start pb-6">
+              <div className="inline-flex items-center xs:space-x-4 space-x-3">
+                <span className="font-medium xs:text-[18px]">Filter :</span>
                 <div>
                   <input
                     type="radio"
@@ -109,7 +99,7 @@ const Hero = () => {
                   <label
                     htmlFor="without"
                     type="button"
-                    className="text-[14px] font-medium cursor-pointer peer-checked:bg-primary peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
+                    className="xs:text-[14px] text-[12px] font-medium cursor-pointer peer-checked:bg-primary peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
                   >
                     Without Driver
                   </label>
@@ -125,14 +115,14 @@ const Hero = () => {
                   <label
                     type="button"
                     htmlFor="with"
-                    className="text-[14px] font-medium cursor-pointer peer-checked:bg-primary peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
+                    className="xs:text-[14px] text-[12px] font-medium cursor-pointer peer-checked:bg-primary peer-checked:text-white py-1.5 px-3 border text-black rounded-full"
                   >
                     With Driver
                   </label>
                 </div>
               </div>
               <button
-                className="ml-5 inline-flex items-center bg-primary rounded-lg px-7 py-3 text-white font-medium text-[18px]"
+                className="sm:w-auto sm:mt-auto mt-5 w-full inline-flex justify-center items-center bg-primary rounded-lg px-7 py-3 text-white font-medium text-[18px]"
                 type="button"
               >
                 Search

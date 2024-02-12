@@ -12,6 +12,7 @@ module.exports = {
         secondary: "#6E6E6E",
       },
       screens: {
+        xs: "450px",
         sd: "860px",
       },
     },
