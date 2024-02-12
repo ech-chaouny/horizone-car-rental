@@ -11,6 +11,9 @@ module.exports = {
         primary: "#1F1F1F",
         secondary: "#6E6E6E",
       },
+      screens: {
+        sd: "860px",
+      },
     },
   },
   plugins: [],

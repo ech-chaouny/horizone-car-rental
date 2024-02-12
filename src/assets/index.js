@@ -24,6 +24,8 @@ import airtable from "./icons/airtable.png";
 import pendo from "./icons/pendo.png";
 import treehouse from "./icons/treehouse.png";
 import website from "./icons/website.svg";
+import menu from "./icons/menu.svg";
+import close from "./icons/close.svg";
 
 import instagram from "./icons/instagram.svg";
 import twitterX from "./icons/twitterX.svg";
@@ -78,4 +80,6 @@ export {
   facebook,
   discord,
   tiktok,
+  menu,
+  close,
 };

@@ -5,7 +5,7 @@ import { socialmedia } from "@/constants";
 
 const Footer = () => {
   return (
-    <div className="px-6 relative py-5 mx-2 mb-2 rounded-xl bg-black flex flex-row gap-[200px] items-start">
+    <div className="px-6 relative py-5 mx-2 mb-2 rounded-xl bg-black flex lg:flex-row flex-wrap justify-between items-start">
       <div>
         <Image className="w-36" src={logo} alt="logo" />
         <p className="text-zinc-400 tracking-wide my-5">
@@ -52,7 +52,7 @@ const Footer = () => {
         <div className="relative">
           <input
             placeholder="Enter your email"
-            className="h-[58px] -my-1.5 pl-4 pr-36 bg-white bg-opacity-20 backdrop-blur-sm outline-none placeholder:text-[#8a8a8a]
+            className="h-[58px] -my-1.5 pl-4 sm:pr-36 pr-20 bg-white bg-opacity-20 backdrop-blur-sm outline-none placeholder:text-[#8a8a8a]
                border-[1.5px] border-[#5e5e5e] text-[#8a8a8a] font-[450] rounded-[8px] text-[18px]"
             type="email"
             name=""
@@ -64,14 +64,18 @@ const Footer = () => {
             Subscribe
           </button>
         </div>
-        <div className="mt-7 flex flex-row items-center gap-6">
+        <div className="mt-7 flex flex-row items-center justify-between">
           {socialmedia.map((social, index) => (
             <a
               key={index}
               href={social.link}
-              className="bg-white flex justify-center items-center bg-opacity-20 w-[55px] h-[55px] backdrop-blur-sm rounded-full"
+              className="bg-white flex justify-center items-center bg-opacity-20 sm:w-[55px] sm:h-[55px] w-[50px] h-[50px] backdrop-blur-sm rounded-full"
             >
-              <Image className="w-[34px]" src={social.icon} alt="twitter" />
+              <Image
+                className="sm:w-[34px] w-[30px]"
+                src={social.icon}
+                alt="twitter"
+              />
             </a>
           ))}
         </div>

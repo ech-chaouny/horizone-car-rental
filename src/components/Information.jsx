@@ -43,10 +43,10 @@ const Information = () => {
           src={twoCars}
           alt="image-3"
         />
-        <h3 className="absolute text-center content-center top-[43%] leading-snug left-48 text-white text-4xl font-medium">
+        {/* <h3 className="absolute text-center content-center top-[43%] leading-snug left-48 text-white text-4xl font-medium">
           Beyond acommodation, creating
           <br /> memories of a lifetime
-        </h3>
+        </h3> */}
       </div>
     </section>
   );
