@@ -4,7 +4,7 @@ import { arrowBlack, hidden, speed, twoCars, website } from "@/assets";
 
 const Information = () => {
   return (
-    <section className="px-2 flex flex-row gap-4 mb-4">
+    <section className="px-2 flex sd:flex-row flex-col gap-4 mb-4">
       <div className="">
         <div className="relative mb-4">
           <Image className="rounded-xl" src={hidden} alt="image-1" />
@@ -43,10 +43,10 @@ const Information = () => {
           src={twoCars}
           alt="image-3"
         />
-        {/* <h3 className="absolute text-center content-center top-[43%] leading-snug left-48 text-white text-4xl font-medium">
+        <h3 className="absolute text-center content-center top-[43%] leading-snug text-white text-4xl font-medium">
           Beyond acommodation, creating
           <br /> memories of a lifetime
-        </h3> */}
+        </h3>
       </div>
     </section>
   );

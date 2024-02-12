@@ -11,8 +11,8 @@ const Hero = () => {
           src={heroImage}
           alt="logo"
         />
-        <div className="absolute w-full bottom-8 px-8">
-          <h1 className="xl:text-[64px] lg:text-[55px] md:text-text-[50px] text-[45px] md:text-start text-center leading-none text-white font-medium">
+        <div className="absolute w-full md:bottom-8 bottom-5 md:px-8 px-5">
+          <h1 className="xl:text-[64px] lg:text-[55px] md:text-text-[50px] text-[45px] md:text-start text-center leading-tight text-white font-medium">
             Rent a Car for Every Journey
           </h1>
           <div className="px-6 w-full bg-white rounded-[12px]">

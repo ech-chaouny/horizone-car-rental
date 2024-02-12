@@ -3,7 +3,7 @@ import React from "react";
 
 const Popular = () => {
   return (
-    <section className="px-8 w-full my-16">
+    <section className="md:px-8 px-6 w-full my-16">
       <h1 className="font-[530] text-4xl tracking-tight text-black">
         Discover popular car rental in worldwide
       </h1>
