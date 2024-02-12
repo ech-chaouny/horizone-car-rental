@@ -14,7 +14,7 @@ const poppins = Poppins({ weight: ["500"], subsets: ["latin"] });
 const Deals = () => {
   return (
     <>
-      <section className={`md:px-8 px-6 w-full my-16`}>
+      <section className={`md:px-8 px-5 w-full my-16`}>
         <div className="flex justify-between items-center">
           <h1 className="font-[530] text-4xl tracking-tight text-black">
             Enjoy extra miles with our best deal
