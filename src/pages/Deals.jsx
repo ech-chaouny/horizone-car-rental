@@ -15,7 +15,7 @@ const Deals = () => {
   return (
     <>
       <section className={`md:px-8 px-5 w-full my-16`}>
-        <div className="flex justify-between items-center">
+        <div className="flex md:flex-row flex-col justify-between items-start gap-5">
           <h1 className="font-[530] text-4xl tracking-tight text-black">
             Enjoy extra miles with our best deal
           </h1>
@@ -50,7 +50,7 @@ const Deals = () => {
               <div className="absolute w-full top-6 md:px-6 px-4">
                 <div className="flex justify-between items-center">
                   <Image className="md:w-10 w-8" src={icon} alt="icon" />
-                  <div className="bg-black md:text-[16px] text-[14px] bg-opacity-20 tracking-wider backdrop-blur-md rounded-full text-white font-normal px-4 py-2">
+                  <div className="bg-black xs:text-[16px] text-[14px] bg-opacity-20 tracking-wider backdrop-blur-md rounded-full text-white font-normal px-4 py-2">
                     Valid only on 12 Jan - 19 Jan 2024
                   </div>
                 </div>
@@ -78,11 +78,11 @@ const Deals = () => {
               <div className="absolute w-full top-6 md:px-6 px-4">
                 <div className="flex justify-between items-center">
                   <Image className="md:w-10 w-8" src={icon} alt="icon" />
-                  <div className="bg-black bg-opacity-20 text-[14px] md:text-[16px] tracking-wider text-white backdrop-blur-md rounded-full font-normal px-4 py-2">
+                  <div className="bg-black bg-opacity-20 text-[14px] xs:text-[16px] tracking-wider text-white backdrop-blur-md rounded-full font-normal px-4 py-2">
                     Valid only on 8 Jan - 22 Jan 2024
                   </div>
                 </div>
-                <h5 className="font-[460] mt-5 md:text-[22px] text-[21px] text-white max-w-96">
+                <h5 className="font-[460] mt-5 md:text-[22px] text-[20px] text-white max-w-96">
                   Unlock Online-Only Discounts for a Seamless Booking Experience
                 </h5>
                 <div
