@@ -5,12 +5,16 @@ import { arrowBlack, hidden, speed, twoCars, website } from "@/assets";
 const Information = () => {
   return (
     <section className="px-2 flex sd:flex-row flex-col gap-4 mb-4">
-      <div className="">
+      <div>
         <div className="relative mb-4">
-          <Image className="rounded-xl" src={hidden} alt="image-1" />
+          <Image
+            className="rounded-xl w-full h-full"
+            src={hidden}
+            alt="image-1"
+          />
           <div className="absolute top-7 left-7">
             <div className="p-[18px] max-w-[60px] rounded-lg bg-white bg-opacity-10 backdrop-blur-md">
-              <Image className="w-6" src={website} alt="icon" />
+              <Image className="w-6 " src={website} alt="icon" />
             </div>
             <h3 className="mt-8 text-white text-4xl font-medium">
               Explore more to get your comfort zone
@@ -28,7 +32,11 @@ const Information = () => {
           </div>
         </div>
         <div className="relative">
-          <Image className="rounded-xl w-[38rem]" src={speed} alt="image-2" />
+          <Image
+            className="rounded-xl sd:w-[38rem]"
+            src={speed}
+            alt="image-2"
+          />
           <div className="absolute bottom-7 left-7">
             <p className="text-[22px] text-white font-[450] mb-1">
               Vehicle Available

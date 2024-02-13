@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const TrustUs = () => {
   return (
-    <div className="px-8 mb-16 xs:flex xs:flex-wrap grid grid-cols-2 justify-center items-center gap-x-16 gap-y-8">
+    <div className="px-8 mb-16 xs:flex xs:flex-wrap grid grid-cols-2 justify-center items-center gap-x-16 gap-y-10">
       {trusts.map((trust, index) => (
         <Image
           key={index}

@@ -10,7 +10,7 @@ const Popular = () => {
       <p className="mt-3 text-[20px] text-secondary font-[470]">
         Explore a diverse and extensive range of rental cars
       </p>
-      <div className="flex flex-wrap mt-10 gap-4">
+      <div className="sm:flex sm:flex-wrap grid grid-cols-2 mt-10 gap-4">
         {popularCars.map((popular, index) => (
           <button
             key={index}
