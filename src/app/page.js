@@ -1,5 +1,4 @@
 import Footer from "@/components/Footer";
-import Information from "@/components/Information";
 import Navbar from "@/components/Navbar";
 import Deals from "@/pages/Deals";
 import Hero from "@/pages/Hero";
@@ -14,7 +13,6 @@ export default function Home() {
       <Vehicles />
       <Popular />
       <Deals />
-      <Information />
       <Footer />
     </>
   );

@@ -37,9 +37,6 @@ import selectIcon from "./icons/select-icon.svg";
 import heroImage from "./image-hero.jpg";
 import imageone from "./image-1.jpg";
 import imagetwo from "./image-2.jpg";
-import hidden from "./hidden.jpg";
-import twoCars from "./two-cars.jpg";
-import speed from "./speed.jpg";
 
 export {
   logo,
@@ -71,9 +68,6 @@ export {
   airtable,
   pendo,
   treehouse,
-  hidden,
-  twoCars,
-  speed,
   website,
   twitterX,
   instagram,
