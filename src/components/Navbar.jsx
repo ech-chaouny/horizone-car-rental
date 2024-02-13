@@ -24,7 +24,7 @@ const Navbar = () => {
         <div className="relative sd:flex hidden">
           <input
             placeholder="Search destination.."
-            className="h-[51px] px-6 bg-white bg-opacity-20 backdrop-blur-sm outline-none placeholder:text-[#EDEDED]
+            className="h-[51px] pl-6 pr-14 bg-white bg-opacity-20 backdrop-blur-sm outline-none placeholder:text-[#EDEDED]
               w-[340px] border-[1px] border-[#e6e6e69c] text-white rounded-[10px] text-[18px]"
             type="text"
             name=""

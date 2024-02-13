@@ -50,7 +50,7 @@ const Footer = () => {
           <div className="relative xs:max-w-[360px]">
             <input
               placeholder="Enter your email"
-              className="h-[58px] -my-1.5 pl-4 md:pr-36 pr-16 bg-white bg-opacity-20 backdrop-blur-sm outline-none placeholder:text-[#8a8a8a]
+              className="h-[58px] -my-1.5 pl-4 pr-32 bg-white bg-opacity-20 backdrop-blur-sm outline-none placeholder:text-[#8a8a8a]
                border-[1.5px] xs:w-[360px] w-full border-[#5e5e5e] text-[#8a8a8a] font-[450] rounded-[8px] text-[18px]"
               type="email"
               name=""
