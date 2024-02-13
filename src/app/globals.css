@@ -8,3 +8,8 @@
 body {
   font-family: "General Sans", sans-serif;
 }
+
+* {
+  scrollbar-color: #6E6E6E #fff;
+  scrollbar-width: thin;
+}
