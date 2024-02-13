@@ -41,7 +41,7 @@ const Deals = () => {
           }}
         >
           <SwiperSlide>
-            <div className="relative">
+            <a href="#" className="relative">
               <Image
                 className="md:h-full h-[20rem] w-full object-cover object-left rounded-xl"
                 src={imageone}
@@ -66,10 +66,10 @@ const Deals = () => {
                   *with Terms and Condition
                 </p>
               </div>
-            </div>
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="relative">
+            <a href="#" className="relative">
               <Image
                 className="md:h-full h-[20rem] w-full object-cover object-left rounded-xl"
                 src={imagetwo}
@@ -94,7 +94,7 @@ const Deals = () => {
                   *with Terms and Condition
                 </p>
               </div>
-            </div>
+            </a>
           </SwiperSlide>
         </Swiper>
       </section>
