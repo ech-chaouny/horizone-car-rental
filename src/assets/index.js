@@ -1,5 +1,7 @@
 import logo from "./logo.png";
 import local from "./icons/local.svg";
+import pickUp from "./icons/pick-icon.svg";
+import Return from "./icons/return-icon.svg";
 import search from "./icons/search.svg";
 import lang from "./icons/lang.svg";
 import arrow from "./icons/arrow.svg";
@@ -76,4 +78,6 @@ export {
   tiktok,
   menu,
   close,
+  pickUp,
+  Return,
 };

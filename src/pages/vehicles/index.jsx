@@ -57,7 +57,7 @@ const Vehicle = ({ vehicle }) => {
 
 const Vehicles = () => {
   return (
-    <section className="md:px-8 px-5 w-full my-10">
+    <section id="vehicles" className="md:px-8 px-5 w-full my-10">
       <h1 className="font-[530] text-4xl tracking-tight text-black">
         Top picks vehicle this month
       </h1>

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { arrow, heroImage, local, selectIcon } from "@/assets";
+import { Return, arrow, heroImage, local, pickUp, selectIcon } from "@/assets";
 
 const Hero = () => {
   return (
@@ -63,9 +63,11 @@ const Hero = () => {
                 <h5 className="font-medium text-[18px]">Pick Up Date & Time</h5>
                 <div className="flex w-full justify-between bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
                   <div className="flex gap-3">
-                    <Image className="w-[18px]" src={local} alt="icon" />
-                    <span className="font-[450] sm:text-[17.5px]">
-                      City, airport or station
+                    <Image className="w-[18px]" src={pickUp} alt="icon" />
+                    <span className="font-[450] sm:text-[17.5px] tracking-wide">
+                      20 Jan 2024
+                      <span className="mx-3 border-r-2 border-neutral-300 py-1"></span>
+                      09:30 AM
                     </span>
                   </div>
                   <Image className="w-[25px]" src={selectIcon} alt="icon" />
@@ -75,9 +77,11 @@ const Hero = () => {
                 <h5 className="font-medium text-[18px]">Return Date & Time</h5>
                 <div className="flex w-full justify-between bg-[#F6F6F6] rounded-[10px] px-4 py-[18px]">
                   <div className="flex gap-3">
-                    <Image className="w-[18px]" src={local} alt="icon" />
-                    <span className="font-[450] sm:text-[17.5px]">
-                      City, airport or station
+                    <Image className="w-[18px]" src={Return} alt="icon" />
+                    <span className="font-[450] sm:text-[17.5px] tracking-wide">
+                      27 Jan 2024
+                      <span className="mx-3 border-r-2 border-neutral-300 py-1"></span>
+                      04:30 AM
                     </span>
                   </div>
                   <Image className="w-[25px]" src={selectIcon} alt="icon" />
@@ -121,13 +125,14 @@ const Hero = () => {
                   </label>
                 </div>
               </div>
-              <button
+              <a
+                href="#vehicles"
                 className="sm:w-auto sm:mt-auto mt-5 w-full inline-flex justify-center items-center bg-primary rounded-lg px-7 py-3 text-white font-medium text-[18px]"
                 type="button"
               >
                 Search
                 <Image className="ml-3 w-[18px]" src={arrow} alt="arrow" />
-              </button>
+              </a>
             </div>
           </div>
         </div>

@@ -79,7 +79,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex md:flex-row flex-col-reverse justify-between gap-y-6 mt-10">
+      <div className="flex md:flex-row flex-col justify-between gap-y-6 mt-10">
         <div>
           <span className="text-white xs:text-[19px] text-[18px] font-medium tracking-wide">
             ©2024 Horizone. All rights reserved.
